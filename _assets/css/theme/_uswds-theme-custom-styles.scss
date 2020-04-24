@@ -58,13 +58,18 @@ i.e.
 }
 
 //// FOOTER
-.logo-links {
-  display: table-cell;
-}
 
 .footer-logo {
   @include u-margin-right(2);
   text-decoration: none;
+}
+
+.usa-footer__secondary-link {
+  @include u-text($theme-link-color);
+}
+
+.usa-footer__secondary-link:hover {
+  @include u-text($theme-link-hover-color);
 }
 
 //// TYPOGRAPHY
