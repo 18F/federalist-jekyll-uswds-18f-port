@@ -68,8 +68,6 @@ dap_agency: GSA
 primary_navigation:
   - name: Home
     url: /
-  - name: Blog
-    url: /blog/
   - name: Document
     url: /document/
   - name: Document with sidenav
@@ -82,6 +80,10 @@ primary_navigation:
         url: "#main-content"
       - name: Navigation link
         url: "#main-content"
+  - name: How we work
+    children:
+      - name: Blog
+        url: /blog/
 
 secondary_navigation:
   - name: Secondary link

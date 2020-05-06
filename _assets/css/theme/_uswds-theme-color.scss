@@ -25,7 +25,7 @@ Theme palette colors
 
 // Base colors
 $theme-color-base-family: "gray-cool";
-$theme-color-base-lightest: "gray-cool-5";
+$theme-color-base-lightest: "gray-cool-3";
 $theme-color-base-lighter: "gray-cool-10";
 $theme-color-base-light: "gray-cool-30";
 $theme-color-base: "gray-cool-50";
@@ -71,7 +71,7 @@ $theme-color-accent-cool-family: false;
 $theme-color-accent-cool-lightest: false;
 $theme-color-accent-cool-lighter: false;
 $theme-color-accent-cool-light: false;
-$theme-color-accent-cool: "blue-cool-60v";
+$theme-color-accent-cool: $color-gsa-blue;
 $theme-color-accent-cool-dark: "blue-cool-70v";
 $theme-color-accent-cool-darker: "blue-cool-80";
 $theme-color-accent-cool-darkest: false;

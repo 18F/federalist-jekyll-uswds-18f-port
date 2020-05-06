@@ -108,16 +108,39 @@ i.e.
   @include u-text('ink');
 }
 
-.usa-nav__primary > .usa-nav__primary-item > a:hover {
+.usa-nav__primary > .usa-nav__primary-item > a:hover,
+.usa-nav__primary > .usa-nav__primary-item > button:hover, {
   @include u-bg('base-lightest');
 }
 
-.usa-nav__primary > .usa-nav__primary-item > a:hover::after {
+.usa-header--extended .usa-nav__link:hover::after,
+.usa-nav__primary button[aria-expanded="true"]::after {
   height: 0;
 }
 
+// active state
 .usa-nav__primary > .usa-nav__primary-item > a.usa-current:hover::after{
   height: 0.25rem;
+  position: absolute;
+  bottom: 0;
+}
+
+// dropdown styles
+
+.usa-nav__primary button[aria-expanded="true"] {
+  background-image: asset_url('angle-arrow-up-primary.svg');
+}
+
+
+.usa-nav__primary button[aria-expanded="true"],
+.usa-nav__primary button[aria-expanded="true"]:hover {
+  @include u-color('primary-dark');
+  @include u-bg('base-lightest');
+}
+
+.usa-nav__submenu {
+  @include u-color('white');
+  @include u-bg('primary');
 }
 
 // Link focus
