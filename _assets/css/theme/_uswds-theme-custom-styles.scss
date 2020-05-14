@@ -106,6 +106,19 @@ i.e.
   text-decoration: none;
 }
 
+.usa-footer__primary-link {
+  @include u-margin-bottom(0.5);
+  @include u-padding-bottom(0);
+  &:hover{
+    text-decoration: none;
+    cursor: auto;
+  }
+}
+
+.usa-footer__secondary-link {
+  @include u-font('sans', '2xs')
+}
+
 .usa-footer__secondary-link {
   @include u-text($theme-link-color);
 }
@@ -154,13 +167,6 @@ i.e.
 //// PAGE COMPONENTS
 
 // Buttons
-// .usa-button:hover {
-//   @include u-bg('primary')
-// }
-//
-// .usa-button:hover {
-//   @include u-bg('primary-dark')
-// }
 
 .usa-button--secondary {
   @include u-text('primary-darker');
