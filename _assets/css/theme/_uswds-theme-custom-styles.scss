@@ -129,6 +129,7 @@ i.e.
 .usa-footer__social-links {
   text-align: left;
   justify-content: flex-start;
+  @include u-padding-bottom(0);
 }
 
 //// TYPOGRAPHY
