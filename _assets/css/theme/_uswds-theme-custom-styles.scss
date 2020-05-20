@@ -108,7 +108,9 @@ i.e.
 
 .usa-footer__primary-link {
   @include u-margin-bottom(0.5);
+  @include u-margin-top(0);
   @include u-padding-bottom(0);
+  @include u-padding-top(0);
   &:hover{
     text-decoration: none;
     cursor: auto;
@@ -116,15 +118,17 @@ i.e.
 }
 
 .usa-footer__secondary-link {
-  @include u-font('sans', '2xs')
-}
-
-.usa-footer__secondary-link {
+  @include u-font('sans', '2xs');
   @include u-text($theme-link-color);
 }
 
 .usa-footer__secondary-link:hover {
   @include u-text($theme-link-hover-color);
+}
+
+.usa-footer__social-links {
+  text-align: left;
+  justify-content: flex-start;
 }
 
 //// TYPOGRAPHY
