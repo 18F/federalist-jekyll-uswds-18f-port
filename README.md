@@ -26,7 +26,7 @@ Note that when built by Federalist, `npm run federalist` is used instead of the
     $ bundle install
     $ npm start
 
-Open your web browser to [localhost:4000](http://localhost:4000/) to view your
+Open your web browser to [localhost:5000](http://localhost:5000/) to view your
 site.
 
 ### Testing
