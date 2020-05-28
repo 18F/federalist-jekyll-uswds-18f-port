@@ -9,7 +9,7 @@
 
 # A themed version of the federalist USWDS2 templates
 
-This is an in progress repo to create and 18F theme of the [federalist-uswds-jekyll](https://github.com/18F/federalist-uswds-jekyll) templates to make it easier for team members to create and update 18F guides.
+This is an in-progress repo to create and 18F theme of the [federalist-uswds-jekyll](https://github.com/18F/federalist-uswds-jekyll) templates to make it easier for team members to create and update 18F guides.
 
 See the Federalist repo for more documentation and details on content management. 
 
